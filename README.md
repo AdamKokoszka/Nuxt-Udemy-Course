@@ -1,22 +1,11 @@
-# first-nuxt-app
+# Nuxt-Udemy-Course
 
-> My finest Nuxt.js project
+### What I've already done:
+* Pages, Routing & Views
 
-## Build Setup
+The course I am working on: [Nuxt.js - Vue.js on Steroi](https://www.udemy.com/nuxtjs-vuejs-on-steroids)
 
-``` bash
-# install dependencies
-$ npm run install
 
-# serve with hot reload at localhost:3000
-$ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+ 
 
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
