@@ -5,3 +5,8 @@
 <!--    http://localhost:3000/users/9/more-detail-->
   </div>
 </template>
+<script>
+export default{
+  layout: 'users'
+}
+</script>
