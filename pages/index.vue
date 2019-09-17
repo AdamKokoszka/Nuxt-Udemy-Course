@@ -3,20 +3,16 @@
     <section class="intro">
       <h1>Get the latest tech news!</h1>
     </section>
-    <section class="features-posts">
-      <PostPreview id="1" title="First Title" previewText="Hello!" thumbnail="https://www.macobserver.com/wp-content/uploads/2017/10/code-2434271_1280-1200x630.jpg"/>
-      <PostPreview id="2" title="Second Title" previewText="H1!" thumbnail="https://www.macobserver.com/wp-content/uploads/2017/10/code-2434271_1280-1200x630.jpg"/>
-      <PostPreview id="3" title="Third Title" previewText="Hi" thumbnail="https://www.macobserver.com/wp-content/uploads/2017/10/code-2434271_1280-1200x630.jpg"/>
-    </section>
+    <PostList />
   </div>
 </template>
 
 <script>
-  import PostPreview from '~/components/Posts/PostPreview.vue'
+  import PostList from '~/components/Posts/PostList.vue'
 
   export default {
     components: {
-      PostPreview
+      PostList
     }
   }
 
