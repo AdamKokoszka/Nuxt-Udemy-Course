@@ -5,6 +5,7 @@
       <div class="post-details">
         <div class="post-detail">Last update on XXX</div>
         <div class="post-detail">Written by NAME</div>
+        <div class="post-detail">Written by NAME</div>
       </div>
       <p>Content of the post</p>
     </section>
