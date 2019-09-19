@@ -1,8 +1,6 @@
 <template>
   <div class="post-list">
-    <PostPreview id="1" :is-admin="isAdmin" title="First Title" previewText="Hello!" thumbnail="https://www.macobserver.com/wp-content/uploads/2017/10/code-2434271_1280-1200x630.jpg" />
-    <PostPreview id="2" :is-admin="isAdmin" title="Second Title" previewText="H1!" thumbnail="https://www.macobserver.com/wp-content/uploads/2017/10/code-2434271_1280-1200x630.jpg" />
-    <PostPreview id="3" :is-admin="isAdmin" title="Third Title" previewText="Hi" thumbnail="https://www.macobserver.com/wp-content/uploads/2017/10/code-2434271_1280-1200x630.jpg" />
+    <PostPreview v-for="post in posts" :key="post.id" id="1" :is-admin="isAdmin" :title="post.title" :previewText="post.previewText" :thumbnail="post.thumbnail" />
   </div>
 </template>
 
@@ -13,6 +11,10 @@
       isAdmin: {
         type: Boolean,
         default: false
+      },
+      posts: {
+        type: Array,
+        required: true
       }
     },
     components: {
